@@ -157,15 +157,48 @@ header .navbar a:hover{
     padding: 1rem 0;
 }
 
-.services{
+
+.events .row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.events .card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.events img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+
+.events h4{
+    font-size: 30px;
+}
+
+.events p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.events .card-body{
+    margin-left: 60px;
+}
+.events button{
+    margin-top: 55px;
+}
+/*
+.events{
     margin-bottom: 200px;
 }
-.services .boxContainer{
+.events .boxContainer{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(27rem,1fr));
     gap: 1.5rem;
 }
-.services .boxContainer .box{
+.events .boxContainer .box{
     text-align: center;
     padding: 2.5rem;
     background: rgb(20,19,19);
@@ -174,7 +207,7 @@ header .navbar a:hover{
     cursor: pointer;
 
 }
-.services .boxContainer .box i{
+.events .boxContainer .box i{
     height: 6rem;
     width: 6rem;
     line-height: 6rem;
@@ -183,15 +216,16 @@ header .navbar a:hover{
     background: var(--main);
 }
 
-.services .boxContainer .box h3{
+.events .boxContainer .box h3{
     font-size: 2rem;
     padding: 1rem 0;
 }
-.services .boxContainer .box p{
+.events .boxContainer .box p{
     font-size: 1.4rem;
     line-height: 1.8;
     color: #eee;
 }
+*/
 
 .contact{
     margin-bottom: 200px;
@@ -233,7 +267,77 @@ header .navbar a:hover{
 }
 
 
+/* Register */
+.register{
+    margin-bottom: 100px;
+}
 
+.register .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+}
+.register form{
+    flex: 1 1 45rem;
+    border: var(--border);
+    box-shadow: var(--box_shadow);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.register form .box{
+    width: 100%;
+    margin: 0.7rem 0;
+    text-transform: none;
+    padding: 1rem;
+    font-size: 1.6rem;
+    /* border: var(--border); */
+    border: 1px solid ;
+    border-radius: 6px;
+}
+
+.register label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Login */
+.login{
+    margin-bottom: 200px;
+}
+
+.login .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+}
+.login form{
+    flex: 1 1 45rem;
+    border: var(--border);
+    box-shadow: var(--box_shadow);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.login form .box{
+    width: 100%;
+    margin: 0.7rem 0;
+    text-transform: none;
+    padding: 1rem;
+    font-size: 1.6rem;
+    /* border: var(--border); */
+    border: 1px solid ;
+    border-radius: 6px;
+}
+
+.login label{
+    font-size: 20px;
+    font-weight: bold;
+}
 footer{
     background: var(--main);
     padding:2rem;

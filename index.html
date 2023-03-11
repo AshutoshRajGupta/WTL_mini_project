@@ -12,21 +12,56 @@
     <!-- styling -->
     <link rel="stylesheet" href="index.css" />
 
+    <!-- internal CSS -->
+    <style>
+      .tables {
+        margin-top: 50px;
+      }
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      td,
+      th {
+        border: 2px solid #111111;
+        text-align: center;
+        padding: 8px;
+        font-size: 12px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+    </style>
+
     <title>Event Web| Made Easy</title>
   </head>
   <body>
     <!-- Header/navbar start here -->
     <header>
       <a href="#" class="logo">
-        <img src="images/dsa.png" alt="" />
+        <!-- <img src="images/logo_1.png" alt="" /> -->
+        <!-- inline css -->
+        <h2
+          style="
+            color: darkorange;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+              'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            font-size: 35px;
+          "
+        >
+          Event Ocassions
+        </h2>
       </a>
       <nav class="navbar">
-        <a href="#Home">Home</a>
-        <a href="#About">About</a>
-        <a href="#Services">Services</a>
-        <a href="#Register">Register</a>
-        <a href="#Login">Login</a>
-        <a href="#Contact">Contact</a>
+        <a href="#Home">HOME</a>
+        <a href="#About">ABOUT</a>
+        <a href="#Events">EVENTS</a>
+        <a href="#Register">REGISTER</a>
+        <a href="#Login">LOGIN</a>
+        <a href="#Contact">CONTACT</a>
       </nav>
       <div class="fas fa-bars" id="MenuBtn"></div>
     </header>
@@ -71,10 +106,111 @@
       </div>
     </section>
 
-    <!-- services section start -->
-    <section id="Services" class="services">
+    <!-- Events section start -->
+    <section id="Events" class="events">
       <h1 class="heading"><span>Our</span>Services</h1>
-      <div class="boxContainer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 mt-3">
+            <div class="card">
+              <div class="card-horizontal">
+                <div class="img-square-wrapper">
+                  <img class="" src="images/ai.png" alt="Card image cap" />
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <button type="Submit" class="btn btn-default">
+                    Register
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr size="4" width="100%" color="brown" />
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 mt-3">
+            <div class="card">
+              <div class="card-horizontal">
+                <div class="img-square-wrapper">
+                  <img class="" src="images/ai.png" alt="Card image cap" />
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <button type="Submit" class="btn btn-default">
+                    Register
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr size="4" width="100%" color="brown" />
+
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 mt-3">
+            <div class="card">
+              <div class="card-horizontal">
+                <div class="img-square-wrapper">
+                  <img class="" src="images/ai.png" alt="Card image cap" />
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <button type="Submit" class="btn btn-default">
+                    Register
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr size="4" width="100%" color="brown" />
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 mt-3">
+            <div class="card">
+              <div class="card-horizontal">
+                <div class="img-square-wrapper">
+                  <img class="" src="images/ai.png" alt="Card image cap" />
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <button type="Submit" class="btn btn-default">
+                    Register
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="boxContainer">
         <div class="box">
           <i class="fas fa-map-marker-alt"></i>
           <h3>Venue Selection</h3>
@@ -85,70 +221,267 @@
           </p>
         </div>
 
-          <div class="box">
-            <i class="fas fa-birthday-cake"></i>
-            <h3>Venue Selection</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa animi
-              modi ex amet necessitatibus. Rem dolorum eos quae beatae voluptate,
-              earum cumque nostrum! Esse et nobis laboriosam nulla sunt placeat.
-            </p>
-          </div>
+        <div class="box">
+          <i class="fas fa-birthday-cake"></i>
+          <h3>Venue Selection</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa animi
+            modi ex amet necessitatibus. Rem dolorum eos quae beatae voluptate,
+            earum cumque nostrum! Esse et nobis laboriosam nulla sunt placeat.
+          </p>
+        </div>
 
-          <div class="box">
-            <i class="fas fa-photo-video"></i>
-            <h3>Venue Selection</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa animi
-              modi ex amet necessitatibus. Rem dolorum eos quae beatae voluptate,
-              earum cumque nostrum! Esse et nobis laboriosam nulla sunt placeat.
-            </p>
-          </div>
+        <div class="box">
+          <i class="fas fa-photo-video"></i>
+          <h3>Venue Selection</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa animi
+            modi ex amet necessitatibus. Rem dolorum eos quae beatae voluptate,
+            earum cumque nostrum! Esse et nobis laboriosam nulla sunt placeat.
+          </p>
+        </div>
 
-          <div class="box">
-            <i class="fas fa-utensils"></i>
-            <h3>Venue Selection</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa animi
-              modi ex amet necessitatibus. Rem dolorum eos quae beatae voluptate,
-              earum cumque nostrum! Esse et nobis laboriosam nulla sunt placeat.
-            </p>
-          </div>
+        <div class="box">
+          <i class="fas fa-utensils"></i>
+          <h3>Venue Selection</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa animi
+            modi ex amet necessitatibus. Rem dolorum eos quae beatae voluptate,
+            earum cumque nostrum! Esse et nobis laboriosam nulla sunt placeat.
+          </p>
+        </div>
 
-          <div class="box">
-            <i class="fas fa-envelope"></i>
-            <h3>Venue Selection</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa animi
-              modi ex amet necessitatibus. Rem dolorum eos quae beatae voluptate,
-              earum cumque nostrum! Esse et nobis laboriosam nulla sunt placeat.
-            </p>
-          </div>
-      </div>
+        <div class="box">
+          <i class="fas fa-envelope"></i>
+          <h3>Venue Selection</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa animi
+            modi ex amet necessitatibus. Rem dolorum eos quae beatae voluptate,
+            earum cumque nostrum! Esse et nobis laboriosam nulla sunt placeat.
+          </p>
+        </div>
+      </div> -->
     </section>
-
 
     <!-- regitration start -->
     <section id="Register" class="register">
-      
+      <!-- inline css -->
+      <h2
+        style="
+          text-align: center;
+          font-size: 40px;
+          color: brown;
+          margin-bottom: 30px;
+        "
+      >
+        Registration Form
+      </h2>
+      <div class="row">
+        <form method="POST">
+          <label>Student PRN:</label><br />
+          <input
+            type="text"
+            name="usn"
+            class="box"
+            placeholder="Enter Student PRN"
+            required
+          /><br /><br />
+
+          <label>Student Name:</label><br />
+          <input
+            type="text"
+            name="name"
+            class="box"
+            placeholder="Enter Student Name"
+            required
+          /><br /><br />
+
+          <label>Branch:</label><br />
+          <input
+            type="text"
+            name="branch"
+            class="box"
+            placeholder="Enter Branch"
+            required
+          /><br /><br />
+
+          <label>Semester:</label><br />
+          <input
+            type="text"
+            name="sem"
+            class="box"
+            placeholder="Enter Current Semester"
+            required
+          /><br /><br />
+
+          <label>Email:</label><br />
+          <input
+            type="text"
+            name="email"
+            class="box"
+            placeholder="Enter your email"
+            required
+          /><br /><br />
+
+          <label>Phone:</label><br />
+          <input
+            type="text"
+            name="phone"
+            class="box"
+            placeholder="Enter Your Phone number"
+            required
+          /><br /><br />
+
+          <label>College:</label><br />
+          <input
+            type="text"
+            name="college"
+            class="box"
+            placeholder="Enter your College name"
+            required
+          /><br /><br />
+
+          <button type="submit" name="update" class="btn btn-default" required>
+            Submit</button
+          ><br /><br />
+          <a
+            style="
+              font-size: medium;
+              font-display: inherit;
+              color: blue;
+              font-weight: bold;
+            "
+            href="#Login"
+            ><u>Already registered ? login</u></a
+          >
+        </form>
+      </div>
+      <div class="tables">
+        <table>
+          <tr>
+            <th>PRN</th>
+            <th>NAME</th>
+            <th>BRANCH</th>
+            <th>SEMESTER</th>
+            <th>EMAIL</th>
+            <th>PHONE</th>
+            <th>COLLEGE</th>
+          </tr>
+          <tr>
+            <td>99887766L</td>
+            <td>Anshuman Gupta</td>
+            <td>COMP</td>
+            <td>THIRD</td>
+            <td>anshuman@gmail.com</td>
+            <td>7766554433</td>
+            <td>DYPCOE</td>
+          </tr>
+          <tr>
+            <td>99887766L</td>
+            <td>Ansh Gupta</td>
+            <td>CIVIL</td>
+            <td>SECOND</td>
+            <td>ansh@gmail.com</td>
+            <td>99654433</td>
+            <td>DYPCOE</td>
+          </tr>
+          <tr>
+            <td>99887766L</td>
+            <td>Ansh Gupta</td>
+            <td>COMP</td>
+            <td>SIXTH</td>
+            <td>ansh@gmail.com</td>
+            <td>7766554433</td>
+            <td>DYPEMR</td>
+          </tr>
+          <tr>
+            <td>99887766L</td>
+            <td>Anshish Gupta</td>
+            <td>IT</td>
+            <td>THIRD</td>
+            <td>anshish@gmail.com</td>
+            <td>7766554433</td>
+            <td>DYPCOE</td>
+          </tr>
+          <tr>
+            <td>99887766L</td>
+            <td>Ansh Gupta</td>
+            <td>COMP</td>
+            <td>THIRD</td>
+            <td>ansh@gmail.com</td>
+            <td>77665433</td>
+            <td>JSPM</td>
+          </tr>
+          <tr>
+            <td>99887766L</td>
+            <td>Anurag Gupta</td>
+            <td>ENTC</td>
+            <td>THIRD</td>
+            <td>anurag@gmail.com</td>
+            <td>776676433</td>
+            <td>PCCOE</td>
+          </tr>
+        </table>
+      </div>
     </section>
-   
+
+    <!-- login form -->
+    <section id="Login" class="login">
+      <h2
+        style="
+          text-align: center;
+          font-size: 50px;
+          color: brown;
+          margin-bottom: 120px;
+        "
+      >
+        Login Form
+      </h2>
+      <div class="row">
+        <form method="POST">
+          <!--form-->
+
+          <!--username field-->
+          <label>UserName:</label><br />
+          <input
+            type="text"
+            name="name"
+            class="box"
+            placeholder="enter username here ......"
+            required
+          /><br />
+
+          <label>Password</label><br />
+          <input
+            type="password"
+            name="password"
+            class="box"
+            placeholder="Enter Password here......"
+            required
+          /><br />
+          <button type="submit" name="update" class="btn btn-default">
+            Login
+          </button>
+        </form>
+      </div>
+    </section>
+
     <!-- contcat form start -->
     <section id="Contact" class="contact">
       <h1 class="heading"><span>Contact </span>Now</h1>
       <div class="row">
         <form action="">
           <h3>Book your Appointment</h3>
-          <input type="text" required placeholder="your name" class="box">
-          <input type="email" required placeholder="your email" class="box">
-          <input type="number" required placeholder="your number" class="box">
-          <input type="date" required class="box">
-          <button class="btn">Submit <span class="fas fa-chevron-right"></span></button>
-
-
+          <input type="text" required placeholder="your name" class="box" />
+          <input type="email" required placeholder="your email" class="box" />
+          <input type="number" required placeholder="your number" class="box" />
+          <input type="date" required class="box" />
+          <button class="btn">
+            Submit <span class="fas fa-chevron-right"></span>
+          </button>
         </form>
         <div class="img">
-          <img src="images/ooknow.jpg" alt="">
+          <img src="images/ooknow.jpg" alt="" />
         </div>
       </div>
     </section>
