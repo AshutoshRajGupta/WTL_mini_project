@@ -4,9 +4,146 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styling -->
+    <link rel="stylesheet" href="create_event.css" />
     <title>Document</title>
+
+    <!-- internal CSS -->
+    <style>
+      .tables {
+        margin-top: 50px;
+        margin-bottom: 30px;
+      }
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      td,
+      th {
+        border: 2px solid #111111;
+        text-align: center;
+        padding: 8px;
+        font-size: 12px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+    </style>
 </head>
+
+<header>
+    <a href="#" class="logo">
+      <!-- <img src="images/logo_1.png" alt="" /> -->
+      <!-- inline css -->
+      <h2
+        style="
+          color: darkorange;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+            'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          font-weight: bold;
+          font-size: 35px;
+        "
+      >
+        Event Ocassions
+      </h2>
+    </a>
+    <nav class="navbar">
+      <a href="Admin_page.html">HOME</a>
+      <a href="Student_details.html">STUDENT DETAILS</a>
+      <a href="Student_cordinator.html">STUDENt CO-ORDINATOR</a>
+      <a href="Staff_cordinator.html">STAFF CO_ORDINATOR</a>
+      <a class = "btn btn-default navbar-btn" href = "index.html">Logout <span class = "glyphicon glyphicon-log-out"></span></a></li>            
+  
+    </nav>
+    <div class="fas fa-bars" id="MenuBtn"></div>
+  </header>
+  <!-- Header/navbar end here -->
+  
+  <!-- Home section starts here -->
+  <section id="Home" class="home">
+    <div class="content">
+      <h3>When Nothing Goes Right,Go left!!</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+        commodi optio magni culpa excepturi ea, nemo aliquid ipsa a non illum
+        iste hic maiores sapiente voluptatum labore eveniet asperiores velit!
+      </p>
+      <a href="#" class="btn">View More</a>
+    </div>
+  </section>
+  <!-- Home section ends here -->
+
+
 <body>
-    Student Co-ordinator Details
+  <h1 style="text-align: center; font-size:50px; color: brown; margin-top: 40px;">Student Co-ordinator Details</h1>
+  <div class="tables">
+      <table>
+        <tr>
+          <th>PRN</th>
+          <th>NAME</th>
+          <th>BRANCH</th>
+          <th>SEMESTER</th>
+          <th>EMAIL</th>
+          <th>PHONE</th>
+          <th>COLLEGE</th>
+        </tr>
+        <tr>
+          <td>99887766L</td>
+          <td>Anshuman Gupta</td>
+          <td>COMP</td>
+          <td>THIRD</td>
+          <td>anshuman@gmail.com</td>
+          <td>7766554433</td>
+          <td>DYPCOE</td>
+        </tr>
+        <tr>
+          <td>99887766L</td>
+          <td>Ansh Gupta</td>
+          <td>CIVIL</td>
+          <td>SECOND</td>
+          <td>ansh@gmail.com</td>
+          <td>99654433</td>
+          <td>DYPCOE</td>
+        </tr>
+        <tr>
+          <td>99887766L</td>
+          <td>Ansh Gupta</td>
+          <td>COMP</td>
+          <td>SIXTH</td>
+          <td>ansh@gmail.com</td>
+          <td>7766554433</td>
+          <td>DYPEMR</td>
+        </tr>
+        <tr>
+          <td>99887766L</td>
+          <td>Anshish Gupta</td>
+          <td>IT</td>
+          <td>THIRD</td>
+          <td>anshish@gmail.com</td>
+          <td>7766554433</td>
+          <td>DYPCOE</td>
+        </tr>
+        <tr>
+          <td>99887766L</td>
+          <td>Ansh Gupta</td>
+          <td>COMP</td>
+          <td>THIRD</td>
+          <td>ansh@gmail.com</td>
+          <td>77665433</td>
+          <td>JSPM</td>
+        </tr>
+        <tr>
+          <td>99887766L</td>
+          <td>Anurag Gupta</td>
+          <td>ENTC</td>
+          <td>THIRD</td>
+          <td>anurag@gmail.com</td>
+          <td>776676433</td>
+          <td>PCCOE</td>
+        </tr>
+      </table>
+    </div>
 </body>
 </html>

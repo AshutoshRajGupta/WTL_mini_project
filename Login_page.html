@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Login Page</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+          <!-- <img src="images/logo_1.png" alt="" /> -->
+          <!-- inline css -->
+          <h2
+            style="
+              color: darkorange;
+              font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+                'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+              font-weight: bold;
+              font-size: 35px;
+            "
+          >
+            Event Ocassions
+          </h2>
+        </a>
+        <nav class="navbar">
+          <a href="index.html">HOME</a>
+          <a href="#About">ABOUT</a>
+          <a href="#Events">EVENTS</a>
+          <a href="Register_page.html">REGISTER</a>
+          <a href="Login_page.html">LOGIN</a>
+          <a href="Admin_page.html">ADMIN</a>
+        </nav>
+        <div class="fas fa-bars" id="MenuBtn"></div>
+      </header>
+      <!-- Header/navbar end here -->
+    <section id="Login" class="login">
+        <h2
+          style="
+            text-align: center;
+            font-size: 50px;
+            color: brown;
+            margin-bottom: 120px;
+            margin-top: 80px;
+          "
+        >
+          Login Form
+        </h2>
+        <div class="row">
+          <form method="POST">
+            <!--form-->
+  
+            <!--username field-->
+            <label>UserName:</label><br />
+            <input
+              type="text"
+              name="name"
+              class="box"
+              placeholder="enter username here ......"
+              required
+            /><br />
+  
+            <label>Password</label><br />
+            <input
+              type="password"
+              name="password"
+              class="box"
+              placeholder="Enter Password here......"
+              required
+            /><br />
+            <button type="submit" name="update" class="btn btn-default">
+              Login
+            </button>
+            <a href="Admin_page.html" class="btn btn-default" target="_blank">Admin Panel</a>
+          </form>
+        </div>
+  
+        <!-- <div w3-include-html="index2.html">View Table</div> -->
+  
+      </section>
+</body>
+</html>
